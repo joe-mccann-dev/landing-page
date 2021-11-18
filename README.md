@@ -1,0 +1,1 @@
+This is the repository for the landing page exercise found over at The Odin Project. The goal of the project is to synthesize flexbox knowledge into a tangible real-world-like project. Details: https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/landing-page
