@@ -21,13 +21,12 @@ body {
 }
 
 .hero {
-  min-height: 70vh;
+  min-height: 80vh;
   padding-top: 16px;
-  padding-left: 192px;
-  padding-right: 96px;
+  padding-left: 15%;
+  padding-right: 10%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .header {
@@ -41,27 +40,55 @@ body {
   gap: 16px;
 }
 
-a {
-  font-size: 18px;
-  color: #E5E7EB;
-  text-decoration: none;
-}
-
-.hero h1 {
+.hero-text {
   font-size: 48px;
   font-weight: 900;
   color: #F9FAF8;
 }
 
+.hero-content-subtext, a {
+  font-size: 18px;
+  color: #E5E7EB;
+  text-decoration: none;
+}
+
+.hero-content-subtext {
+  margin-bottom: 16px;
+  max-width: 90%;
+}
+
+h1, p {
+  margin: 0;
+  padding: 0;
+}
 
 .hero-content {
-  margin: auto;
   display: flex;
+  flex: 1;
+  align-items: center;
   justify-content: space-between;
+  gap: 32px;
+}
+
+.hero-content-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-sign-up-button {
+  border: none;
+  color: #F9FAF8;
+  font-weight: 700;
+  font-size: 18px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  display: flex;
+  padding: 8px 32px;
+  align-self: flex-start;
 }
 
 .hero-content-right {
-  width: 475px;
+  width: 524px;
   height: 225px;
   background-color: #6c737b;
   color: #F9FAF8;
@@ -70,7 +97,3 @@ a {
   justify-content: center;
   flex-shrink: 0;
 }
-
-
-
-
