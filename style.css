@@ -54,4 +54,23 @@ a {
 }
 
 
+.hero-content {
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-content-right {
+  width: 475px;
+  height: 225px;
+  background-color: #6c737b;
+  color: #F9FAF8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+
+
 
