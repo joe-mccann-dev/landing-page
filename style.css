@@ -168,3 +168,15 @@ h1, p {
   font-size: 24px;
   text-align: right;
 }
+
+/* CALL TO ACTION SECTION */
+
+.call-to-action {
+  padding: 96px;
+}
+
+.message-container {
+  padding: 48px;
+  background-color: #3882F6;
+  max-width: 960px;
+}
