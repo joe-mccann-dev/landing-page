@@ -219,13 +219,13 @@ h1, p {
 /* FOOTER */
 
 .footer {
-  padding: 32px;
+  padding: 36px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .copyright {
-  font-size: 16px;
+  font-size: 18px;
   color: #F9FAF8;
 }
