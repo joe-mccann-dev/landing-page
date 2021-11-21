@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;0,900;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300;1,400&display=swap');
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
@@ -6,6 +6,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  font-weight: 400;
 }
 
 /* HERO SECTION */
@@ -213,4 +214,18 @@ h1, p {
   padding: 6px 32px;
   font-size: 18px;
   font-weight: 900;
+}
+
+/* FOOTER */
+
+.footer {
+  padding: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.copyright {
+  font-size: 16px;
+  color: #F9FAF8;
 }
