@@ -173,10 +173,44 @@ h1, p {
 
 .call-to-action {
   padding: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .message-container {
+  flex: 1;
   padding: 48px;
   background-color: #3882F6;
   max-width: 960px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column;
+  color: #F9FAF8;
+}
+
+.primary-message {
+  font-weight: 900;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.secondary-message {
+  font-size: 16px;
+}
+
+.call-to-action-button {
+  background: none;
+  border: solid 2px #F9FAF8;
+  border-radius: 10px;
+  color: #F9FAF8;
+  padding: 6px 32px;
+  font-size: 18px;
+  font-weight: 900;
 }
