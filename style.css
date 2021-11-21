@@ -95,3 +95,34 @@ h1, p {
   justify-content: center;
   flex-shrink: 0;
 }
+
+/* INFORMATION SECTION */
+
+.images-and-information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px;
+}
+
+.images {
+  display: flex;
+  flex: 1;
+  /* justify-content: center; */
+}
+
+.image-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.image {
+  width: 144px;
+  height: 144px;
+  border-radius: 10px;
+  border: solid 2px #3882F6;
+}
+
+.image-subtext {
+  text-align: center;
+}
